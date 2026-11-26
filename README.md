@@ -10,6 +10,10 @@ shape: same pacing, same crushed grade, same upper-third text block.
 Everything runs locally on `ffmpeg`, in one stdlib Python process. No account, no
 upload, no telemetry.
 
+**Live demo (UI only):** <https://kartbala07.github.io/ReelForge/> — the real studio with a
+studied profile and two reels this pipeline rendered. Rendering itself needs ffmpeg and your
+own clips, so it runs locally.
+
 ![ReelForge](docs/screenshot.png)
 
 ## What "same format" means here
