@@ -11,3 +11,5 @@ renders/
 *.mov
 *.log
 .venv/
+!docs/media/*.mp4
+!docs/media/*.jpg

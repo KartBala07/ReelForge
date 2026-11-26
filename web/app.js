@@ -16,6 +16,10 @@ const fmtBytes = (b) => {
   while (n >= 1024 && i < u.length - 1) { n /= 1024; i++; }
   return `${n.toFixed(n < 10 && i > 0 ? 1 : 0)} ${u[i]}`;
 };
+const DEMO = !!window.REELFORGE_DEMO;
+const mediaUrl = (f) => DEMO ? `media/${f}` : `/media/${encodeURIComponent(f)}`;
+const thumbUrl = (f) => DEMO ? `media/${String(f).replace(/\.mp4$/, ".jpg")}` : `/thumb/${encodeURIComponent(f)}`;
+
 const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
@@ -28,6 +32,7 @@ function toast(msg, isErr) {
 }
 
 async function api(path, opts) {
+  if (DEMO && window.demoApi) return window.demoApi(path, opts);
   const r = await fetch(path, Object.assign({ headers: { "Content-Type": "application/json" } }, opts || {}));
   const ct = r.headers.get("content-type") || "";
   const body = ct.includes("json") ? await r.json() : await r.text();
@@ -265,7 +270,7 @@ function renderGrid() {
     const luma = m.yavg == null ? "" : `Δluma ${m.yavg > 0 ? "+" : ""}${m.yavg}`;
     return `<div class="forge-card" data-file="${esc(r.file)}">
       <div class="poster" data-play="${esc(r.file)}">
-        <img src="/thumb/${encodeURIComponent(r.file)}" alt="" loading="lazy">
+        <img src="${thumbUrl(r.file)}" alt="" loading="lazy">
         <div class="play">▶</div>
       </div>
       <div class="body">
@@ -287,11 +292,11 @@ function renderGrid() {
   $$("[data-play]").forEach((p) => {
     p.onclick = () => {
       const file = p.dataset.play;
-      p.innerHTML = `<video src="/media/${encodeURIComponent(file)}" autoplay loop playsinline></video>`;
+      p.innerHTML = `<video src="${mediaUrl(file)}" autoplay loop playsinline></video>`;
     };
   });
   $$("[data-open]").forEach((b) => {
-    b.onclick = () => window.open(`/media/${encodeURIComponent(b.dataset.open)}`, "_blank");
+    b.onclick = () => window.open(mediaUrl(b.dataset.open), "_blank");
   });
   $$("[data-del]").forEach((b) => {
     b.onclick = async () => {

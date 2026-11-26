@@ -1,0 +1,579 @@
+{
+ "profile": {
+  "name": "gor8e-night",
+  "format": {
+   "aspect": 0.5625,
+   "audio_share": 1.0,
+   "cuts_per_reel": 0.0,
+   "duration": {
+    "max": 8.08,
+    "median": 6.71,
+    "min": 5.05,
+    "p25": 6.62,
+    "p75": 6.9
+   },
+   "fps": 30,
+   "h": 1920,
+   "shot_length": 6.71,
+   "single_shot": true,
+   "w": 1080
+  },
+  "grade": {
+   "hueavg": 128.5,
+   "satavg": 2.8,
+   "yavg": 37.1,
+   "yavg_spread": 13.4
+  },
+  "reference": {
+   "folder": "/Users/bala/.reelvault/data/_gor8e",
+   "reels": 1000,
+   "sampled": 12
+  }
+ },
+ "renders": [
+  {
+   "file": "demo-01.mp4",
+   "clip": "city-lights.mp4",
+   "line": "i keep driving past the petrol station at 2am",
+   "theme": "longing",
+   "duration": 6.7,
+   "profile": "gor8e-night",
+   "match": {
+    "measured": {
+     "YAVG": 40.8,
+     "SATAVG": 3.1,
+     "HUEAVG": 108.7,
+     "YMIN": 8.7,
+     "YMAX": 155.7
+    },
+    "target": {
+     "satavg": 2.8,
+     "yavg": 37.1
+    },
+    "delta": {
+     "yavg": 3.7,
+     "satavg": 0.3
+    }
+   },
+   "bytes": 1330399
+  },
+  {
+   "file": "demo-02.mp4",
+   "clip": "zoom-lights.mp4",
+   "line": "nobody warns you how quiet a city gets at 4am",
+   "theme": "late-night",
+   "duration": 6.7,
+   "profile": "gor8e-night",
+   "match": {
+    "measured": {
+     "YAVG": 32.5,
+     "SATAVG": 2.9,
+     "HUEAVG": 61.8,
+     "YMIN": 9.3,
+     "YMAX": 144.7
+    },
+    "target": {
+     "satavg": 2.8,
+     "yavg": 37.1
+    },
+    "delta": {
+     "yavg": -4.6,
+     "satavg": 0.1
+    }
+   },
+   "bytes": 2161113
+  }
+ ],
+ "lines": [
+  {
+   "text": "everyone's asleep and i'm sitting through the corner store again",
+   "lines": [
+    "everyone's asleep and",
+    "i'm sitting through",
+    "the corner store again"
+   ],
+   "theme": "late-night"
+  },
+  {
+   "text": "i don't hate you. i just don't walk the same anymore",
+   "lines": [
+    "i don't hate you. i",
+    "just don't walk the",
+    "same anymore"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "the worst part wasn't the end. it was the last message after",
+   "lines": [
+    "the worst part wasn't",
+    "the end. it was the",
+    "last message after"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "the version of me that apologises for existing is gone",
+   "lines": [
+    "the version of me that",
+    "apologises for",
+    "existing is gone"
+   ],
+   "theme": "self-worth"
+  },
+  {
+   "text": "dawn thoughts hit different when the petrol station is empty",
+   "lines": [
+    "dawn thoughts hit",
+    "different when the",
+    "petrol station is",
+    "empty"
+   ],
+   "theme": "late-night"
+  },
+  {
+   "text": "i hope the petrol station treats you better than i did",
+   "lines": [
+    "i hope the petrol",
+    "station treats you",
+    "better than i did"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "you don't have to be ordinary. you just have to be there at dawn",
+   "lines": [
+    "you don't have to be",
+    "ordinary. you just",
+    "have to be there at",
+    "dawn"
+   ],
+   "theme": "crush"
+  },
+  {
+   "text": "everyone's asleep and i'm smoking through the street again",
+   "lines": [
+    "everyone's asleep and",
+    "i'm smoking through",
+    "the street again"
+   ],
+   "theme": "late-night"
+  },
+  {
+   "text": "this old road used to mean everything at 3am",
+   "lines": [
+    "this old road used to",
+    "mean everything at 3am"
+   ],
+   "theme": "nostalgia"
+  },
+  {
+   "text": "the worst part wasn't the end. it was the streetlight after",
+   "lines": [
+    "the worst part wasn't",
+    "the end. it was the",
+    "streetlight after"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "if you're parking home alone tonight, so am i",
+   "lines": [
+    "if you're parking home",
+    "alone tonight, so am i"
+   ],
+   "theme": "longing"
+  },
+  {
+   "text": "i don't hate you. i just don't smoke the same anymore",
+   "lines": [
+    "i don't hate you. i",
+    "just don't smoke the",
+    "same anymore"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "if he wanted to, he would. i'm still learning that",
+   "lines": [
+    "if he wanted to, he",
+    "would. i'm still",
+    "learning that"
+   ],
+   "theme": "crush"
+  },
+  {
+   "text": "you don't have to be honest. you just have to be there at 2am",
+   "lines": [
+    "you don't have to be",
+    "honest. you just have",
+    "to be there at 2am"
+   ],
+   "theme": "crush"
+  },
+  {
+   "text": "i wonder if you still park with the radio off too",
+   "lines": [
+    "i wonder if you still",
+    "park with the radio",
+    "off too"
+   ],
+   "theme": "longing"
+  },
+  {
+   "text": "if you see headlights behind you at dawn, that's not me",
+   "lines": [
+    "if you see headlights",
+    "behind you at dawn,",
+    "that's not me"
+   ],
+   "theme": "late-night"
+  },
+  {
+   "text": "i re-read your last message like it's a radio static",
+   "lines": [
+    "i re-read your last",
+    "message like it's a",
+    "radio static"
+   ],
+   "theme": "crush"
+  },
+  {
+   "text": "i don't hate you. i just don't listen the same anymore",
+   "lines": [
+    "i don't hate you. i",
+    "just don't listen the",
+    "same anymore"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "i hope the driveway treats you better than i did",
+   "lines": [
+    "i hope the driveway",
+    "treats you better than",
+    "i did"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "i stopped listening past your street. that took a year",
+   "lines": [
+    "i stopped listening",
+    "past your street. that",
+    "took a year"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "i hope you notice me the way i notice the back road at 3am",
+   "lines": [
+    "i hope you notice me",
+    "the way i notice the",
+    "back road at 3am"
+   ],
+   "theme": "crush"
+  },
+  {
+   "text": "i stopped sitting past your back road. that took a year",
+   "lines": [
+    "i stopped sitting past",
+    "your back road. that",
+    "took a year"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "it's midnight and i'm waiting with nowhere to be",
+   "lines": [
+    "it's midnight and i'm",
+    "waiting with nowhere",
+    "to be"
+   ],
+   "theme": "late-night"
+  },
+  {
+   "text": "it's 1am and i'm driving with nowhere to be",
+   "lines": [
+    "it's 1am and i'm",
+    "driving with nowhere",
+    "to be"
+   ],
+   "theme": "late-night"
+  },
+  {
+   "text": "i don't hate you. i just don't park the same anymore",
+   "lines": [
+    "i don't hate you. i",
+    "just don't park the",
+    "same anymore"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "i'd give anything to drive that back road one more time",
+   "lines": [
+    "i'd give anything to",
+    "drive that back road",
+    "one more time"
+   ],
+   "theme": "nostalgia"
+  },
+  {
+   "text": "i still drive past the bus stop where we used to park",
+   "lines": [
+    "i still drive past the",
+    "bus stop where we used",
+    "to park"
+   ],
+   "theme": "longing"
+  },
+  {
+   "text": "everyone's asleep and i'm driving through the petrol station again",
+   "lines": [
+    "everyone's asleep and",
+    "i'm driving through",
+    "the petrol station",
+    "again"
+   ],
+   "theme": "late-night"
+  },
+  {
+   "text": "i'm not hard to love. i was just loved badly",
+   "lines": [
+    "i'm not hard to love.",
+    "i was just loved badly"
+   ],
+   "theme": "self-worth"
+  },
+  {
+   "text": "i stopped staring past your bridge. that took a year",
+   "lines": [
+    "i stopped staring past",
+    "your bridge. that took",
+    "a year"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "if she sends you this, she's been walking about you all week",
+   "lines": [
+    "if she sends you this,",
+    "she's been walking",
+    "about you all week"
+   ],
+   "theme": "crush"
+  },
+  {
+   "text": "i spent years shrinking so people would stay. they didn't",
+   "lines": [
+    "i spent years",
+    "shrinking so people",
+    "would stay. they",
+    "didn't"
+   ],
+   "theme": "self-worth"
+  },
+  {
+   "text": "you said forever at 2am. i believed it",
+   "lines": [
+    "you said forever at",
+    "2am. i believed it"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "nobody tells you how slow the distance gets after 3am",
+   "lines": [
+    "nobody tells you how",
+    "slow the distance gets",
+    "after 3am"
+   ],
+   "theme": "longing"
+  },
+  {
+   "text": "it's midnight and i'm smoking with nowhere to be",
+   "lines": [
+    "it's midnight and i'm",
+    "smoking with nowhere",
+    "to be"
+   ],
+   "theme": "late-night"
+  },
+  {
+   "text": "the radio static sounds like being 19 again",
+   "lines": [
+    "the radio static",
+    "sounds like being 19",
+    "again"
+   ],
+   "theme": "nostalgia"
+  },
+  {
+   "text": "the bridge looks the same. i don't.",
+   "lines": [
+    "the bridge looks the",
+    "same. i don't."
+   ],
+   "theme": "longing"
+  },
+  {
+   "text": "the worst part wasn't the end. it was the rain after",
+   "lines": [
+    "the worst part wasn't",
+    "the end. it was the",
+    "rain after"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "i hope the bridge treats you better than i did",
+   "lines": [
+    "i hope the bridge",
+    "treats you better than",
+    "i did"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "i kept your radio static in the car like it still means something",
+   "lines": [
+    "i kept your radio",
+    "static in the car like",
+    "it still means",
+    "something"
+   ],
+   "theme": "longing"
+  },
+  {
+   "text": "if she sends you this, she's been driving about you all week",
+   "lines": [
+    "if she sends you this,",
+    "she's been driving",
+    "about you all week"
+   ],
+   "theme": "crush"
+  },
+  {
+   "text": "some nights the cold air is the only thing that answers",
+   "lines": [
+    "some nights the cold",
+    "air is the only thing",
+    "that answers"
+   ],
+   "theme": "longing"
+  },
+  {
+   "text": "i wonder what my most slow feature is",
+   "lines": [
+    "i wonder what my most",
+    "slow feature is"
+   ],
+   "theme": "self-worth"
+  },
+  {
+   "text": "i don't hate you. i just don't stare the same anymore",
+   "lines": [
+    "i don't hate you. i",
+    "just don't stare the",
+    "same anymore"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "you don't have to be ordinary. you just have to be there at midnight",
+   "lines": [
+    "you don't have to be",
+    "ordinary. you just",
+    "have to be there at",
+    "midnight"
+   ],
+   "theme": "crush"
+  },
+  {
+   "text": "i stopped smoking past your bridge. that took a year",
+   "lines": [
+    "i stopped smoking past",
+    "your bridge. that took",
+    "a year"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "i only feel slow at 1am, in the old road, engine off",
+   "lines": [
+    "i only feel slow at",
+    "1am, in the old road,",
+    "engine off"
+   ],
+   "theme": "late-night"
+  },
+  {
+   "text": "nobody claps when you finally choose yourself. do it anyway",
+   "lines": [
+    "nobody claps when you",
+    "finally choose",
+    "yourself. do it anyway"
+   ],
+   "theme": "self-worth"
+  },
+  {
+   "text": "if you see headlights behind you at 3am, that's not me",
+   "lines": [
+    "if you see headlights",
+    "behind you at 3am,",
+    "that's not me"
+   ],
+   "theme": "late-night"
+  },
+  {
+   "text": "we were quiet and broke and it was enough",
+   "lines": [
+    "we were quiet and",
+    "broke and it was",
+    "enough"
+   ],
+   "theme": "nostalgia"
+  },
+  {
+   "text": "i don't hate you. i just don't sit the same anymore",
+   "lines": [
+    "i don't hate you. i",
+    "just don't sit the",
+    "same anymore"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "i hope you notice me the way i notice the petrol station at 4am",
+   "lines": [
+    "i hope you notice me",
+    "the way i notice the",
+    "petrol station at 4am"
+   ],
+   "theme": "crush"
+  },
+  {
+   "text": "i stopped listening past your bus stop. that took a year",
+   "lines": [
+    "i stopped listening",
+    "past your bus stop.",
+    "that took a year"
+   ],
+   "theme": "heartbreak"
+  },
+  {
+   "text": "i don't miss you. i miss who i was in that driveway",
+   "lines": [
+    "i don't miss you. i",
+    "miss who i was in that",
+    "driveway"
+   ],
+   "theme": "longing"
+  }
+ ],
+ "clipNames": [
+  "city-lights.mp4",
+  "zoom-lights.mp4"
+ ]
+}
