@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.reelforge/
+clips/
+renders/
+*.db
+*.db-wal
+*.db-shm
+*.mp4
+*.mov
+*.log
+.venv/

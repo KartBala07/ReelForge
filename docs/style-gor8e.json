@@ -1,0 +1,57 @@
+{
+ "created": 1795727177.833322,
+ "format": {
+  "aspect": 0.5625,
+  "audio_share": 1.0,
+  "cuts_per_reel": 0.0,
+  "duration": {
+   "max": 8.08,
+   "median": 6.71,
+   "min": 5.05,
+   "p25": 6.62,
+   "p75": 6.9
+  },
+  "fps": 30,
+  "h": 1920,
+  "shot_length": 6.71,
+  "single_shot": true,
+  "w": 1080
+ },
+ "grade": {
+  "brightness": -0.01,
+  "contrast": 1.138,
+  "grain": 11,
+  "measured": {
+   "hueavg": 128.5,
+   "satavg": 2.8,
+   "yavg": 37.1,
+   "yavg_spread": 13.4
+  },
+  "saturation": 0.15,
+  "target": {
+   "satavg": 2.8,
+   "yavg": 37.1
+  },
+  "teal_shadows": 0.015,
+  "vignette": 0.55,
+  "warm_highlights": 0.01
+ },
+ "name": "gor8e-night",
+ "reference": {
+  "folder": "/Users/bala/.reelvault/data/_gor8e",
+  "reels": 1000,
+  "sampled": 12
+ },
+ "text": {
+  "align": "center",
+  "bold": false,
+  "color": "0xF0E3A6",
+  "fade_in": 0.6,
+  "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+  "font_size": 52,
+  "line_spacing": 12,
+  "max_chars": 26,
+  "max_lines": 5,
+  "y": 0.22
+ }
+}
